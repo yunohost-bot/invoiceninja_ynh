@@ -19,7 +19,7 @@ Il NE doit PAS être modifié à la main.
 Invoice Ninja est la plate-forme open source n°1 pour créer et envoyer des factures par e-mail, suivre les paiements et les dépenses, ainsi que les tâches et projets facturables pour les clients.
 
 
-**Version incluse :** 4.5.50~ynh1
+**Version incluse :** 4.5.50~ynh2
 
 **Démo :** <https://app.invoiceninja.com/dashboard>
 
@@ -29,7 +29,7 @@ Invoice Ninja est la plate-forme open source n°1 pour créer et envoyer des fac
 
 ## :red_circle: Anti-fonctionnalités
 
-- **Application non maintenue**: Ce logiciel n'est plus maintenu. Attendez-vous à ce qu'il ne fonctionne plus avec le temps, et que l'on découvre des failles de sécurité qui ne seront pas corrigées, etc.
+- **Application non maintenue **: Ce logiciel n'est plus maintenu. Attendez-vous à ce qu'il ne fonctionne plus avec le temps, et que l'on découvre des failles de sécurité qui ne seront pas corrigées, etc.
 
 ## Documentations et ressources
 

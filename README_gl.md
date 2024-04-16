@@ -19,7 +19,7 @@ NON debe editarse manualmente.
 Invoice Ninja is the #1 open-source platform to create & email invoices, track payments and expenses, and time billable tasks & projects for clients.
 
 
-**Versión proporcionada:** 4.5.50~ynh1
+**Versión proporcionada:** 4.5.50~ynh2
 
 **Demo:** <https://app.invoiceninja.com/dashboard>
 
