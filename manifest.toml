@@ -7,7 +7,7 @@ name = "InvoiceNinja"
 description.en = "Create and email invoices, track payments and expenses"
 description.fr = "Créez et envoyez des factures par e-mail, suivez les paiements"
 
-version = "4.5.50~ynh1"
+version = "4.5.50~ynh2"
 
 maintainers = ["rndmh3ro"]
 
