@@ -3,7 +3,7 @@
 请勿手动编辑。
 -->
 
-# YunoHost 的 InvoiceNinja
+# YunoHost 上的 InvoiceNinja
 
 [![集成程度](https://dash.yunohost.org/integration/invoiceninja.svg)](https://dash.yunohost.org/appci/app/invoiceninja) ![工作状态](https://ci-apps.yunohost.org/ci/badges/invoiceninja.status.svg) ![维护状态](https://ci-apps.yunohost.org/ci/badges/invoiceninja.maintain.svg)
 
