@@ -1,11 +1,7 @@
 #!/bin/bash
 
 #=================================================
-# COMMON VARIABLES
-#=================================================
-
-#=================================================
-# PERSONAL HELPERS
+# COMMON VARIABLES AND CUSTOM HELPERS
 #=================================================
 
 _install_phantomjs() {
@@ -14,16 +10,9 @@ _install_phantomjs() {
     ynh_setup_source --dest_dir="$source_dir" --source_id="phantomjs"
 
     pushd "$source_dir"
-        ynh_exec_warn_less env PREFIX="$destdir" ./configure
-        ynh_exec_warn_less make -j "$(nproc)"
-        ynh_exec_warn_less make install
+        ynh_hide_warnings env PREFIX="$destdir" ./configure
+        ynh_hide_warnings make -j "$(nproc)"
+        ynh_hide_warnings make install
     popd
-    ynh_secure_remove --file="$source_dir"
+    ynh_safe_rm "$source_dir"
 }
-#=================================================
-# EXPERIMENTAL HELPERS
-#=================================================
-
-#=================================================
-# FUTURE OFFICIAL HELPERS
-#=================================================
